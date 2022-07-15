@@ -1,0 +1,26 @@
+{% include 'base.html' %}
+{% include 'navigation.html' %}
+
+<h1 class="text-center"> Contact Details</h1>
+{% block content %}
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col-lg-3">
+        <h4><i class="fas fa-phone-square"> Contact</i></h4>
+      <p><h5><a href="tel:044-22662938">044-22662938</a></h5></p>
+    </div>
+    <div class="col-lg-3">
+      <h4><i class="fas fa-envelope"> Email</i></h4>
+      <p><h5><a href="mailto:someone@example.com">Hospital Mail-id</a></h5></p>
+    </div>
+    <div class="col-lg-3">
+      <h4><i class="fas fa-map-marker-alt"> Location</i></h4>
+      <p><h5><a href="http://maps.google.com/maps?q=chennai">Hospital Location</a></h5></p>
+    </div>
+    <div class="col-lg-3">
+      <h4><i class="far fa-clock"> <b>Timings</b></i></h4>
+      <p><h5> 10 AM TO 9 PM </h5></p>
+    </div>
+  </div>
+</div>
+{% endblock content %}
